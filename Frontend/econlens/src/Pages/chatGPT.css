@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* ChatbotModal.css */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-dialog {
+    margin: 5% auto;
+  }
+  
+  .modal-content {
+    max-height: 80vh;
+    /* overflow-y: auto; */
+  }
+  
+  .modal-body{
+    height:80vh;
+  }
+
+  .chatbot-container{
+
+  }
+
+  .chat-history{
+    /* height: 90vh;
+    background-color: red;
+    overflow-y: scroll;
+    scroll-behavior: smooth; */
+
+
+    height: 60vh;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+
+
+
+    /* Style for individual chat messages */
+.message {
+  background-color: #fff;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#inputTextBox{
+  width: 90%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.userInputClass{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
